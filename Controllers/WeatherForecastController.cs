@@ -20,6 +20,7 @@ namespace TodoApi.Controllers
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
+            //DI
             _logger = logger;
         }
 
